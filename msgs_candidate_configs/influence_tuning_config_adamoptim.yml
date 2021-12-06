@@ -1,0 +1,10 @@
+num_train_epochs: 3
+influence_tuning_lr: 0.00003
+influence_tuning_batch_size: 16
+influence_tuning_epochs: 3
+influence_tuning_instance_dropout: 0.98
+coord_interval: 50
+seed: 2024
+num_pos_ex: 3
+num_neg_ex: 3
+output_dir: "candidate_coord_tuned_tagger_msgs_IT/"

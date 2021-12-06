@@ -1,0 +1,8 @@
+num_train_epochs: 10
+influence_tuning_lr: 0.00003
+influence_tuning_batch_size: 64
+influence_tuning_epochs: 5
+influence_tuning_instance_dropout: 0.95
+coord_interval: 50
+seed: 2022
+output_dir: "candidate_coord_tuned_tagger_synth_IT/"
